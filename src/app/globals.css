@@ -6,3 +6,11 @@
     font-family: cabinet_grotesk;
     src: url("../../assets/fonts/cabinet-grotesk-cufonfonts-webfont/CabinetGrotesk-Regular.woff") format("woff");
 }
+
+@layer utilities {
+    .border-gradient-purple {
+      border-image: linear-gradient(to bottom, rgba(128, 58, 217, 0.2), rgba(128, 58, 217, 1)) 1;
+      border-radius: 50%;
+    }
+  }
+  
